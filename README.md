@@ -1,4 +1,4 @@
-Updated 23/12/2018
+Updated 05/02/2019
 
 # Program the EEPROM for the Pi to recognise our MM1-Hat
 
