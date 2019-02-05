@@ -1,0 +1,17 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2708";
+
+    fragment@0 {
+        target = <&leds>;
+        __overlay__ {
+            robotcat_hat_led: robotcat-hat-led {
+                label = "LED-17";
+                gpios = <&gpio 17 0>;
+                linux,default-trigger = "heartbeat";
+            };
+        };
+    };
+};
