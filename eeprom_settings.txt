@@ -19,10 +19,12 @@
 product_uuid 5ec04c5c-7a0d-73e1-88be-c2e31e1574dd
 
 # 16 bit product id
-product_id 0x0001
+# 4d4d = MM
+product_id 0x4d4d
 
 # 16 bit product version
-product_ver 0x0002
+# 1 1 32 = 1 v1.50 (0x32 -= 50)
+product_ver 0x1132
 
 # ASCII vendor string  (max 255 characters)
 vendor "RoboticsMasters"
